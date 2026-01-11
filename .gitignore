@@ -1,0 +1,26 @@
+.env
+./venv/
+
+# model artifacts
+models/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# python cache
+__pycache__/
+*.pyc
+
+# editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# logs
+logs/
+runs/
+wandb/
+
+# notebooks
+.ipynb_checkpoints/
